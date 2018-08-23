@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+using namespace std;
+int main(){
+	float a,b;
+	double resp;
+	
+	scanf("%f",&a);
+	scanf("%f",&b);
+	resp = (a*b)/12;
+	printf("%.3lf\n",resp);
+	return(0);
+}
