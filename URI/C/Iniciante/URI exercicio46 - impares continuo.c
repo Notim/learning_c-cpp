@@ -1,3 +1,7 @@
+/*
+    author: Joao vitor paulino martins
+ */
+
 #include<stdio.h>
 
 int main(void)
