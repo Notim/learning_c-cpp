@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,7 +6,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="BuiltIn" />
+    <Compile Remove="BuiltIn\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="BuiltIn\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="BuiltIn\**" />
   </ItemGroup>
 
 </Project>
